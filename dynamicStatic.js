@@ -5,3 +5,13 @@ let b = prompt("Please enter second number","");
 var c =parseInt(a) + parseInt(b);
 
 console.log("The sum of "+ a + " and "+b+" is equal to "+ c);
+
+// kms to miles
+
+function convert(){
+    var kms = document.getElementById('data').value;
+    const factor = 0.621371;
+    var miles = kms * factor;
+
+    document.getElementById('res').innerText = `${miles} miles`;
+}
