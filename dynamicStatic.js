@@ -15,3 +15,13 @@ function convert(){
 
     document.getElementById('res').innerText = `${miles} miles`;
 }
+
+// celsius to farenheit
+
+function convert(){
+    var celsius = document.getElementById('data').value;
+    // const factor = 1.8 ;
+    var  farenheit = (celsius * 1.8) +32 ;
+
+    document.getElementById('res').innerText = `${farenheit} farenheit`;
+}
